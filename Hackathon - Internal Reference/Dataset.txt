@@ -1,0 +1,45 @@
+PS1: Predictive Maintenance
+Original Competition: https://www.kaggle.com/competitions/robot-predictive-maintenance-season-2026
+
+Alternative Dataset: https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification
+
+NASA CMAPSS Dataset: https://www.kaggle.com/datasets/palbha/cmapss-jet-engine-simulated-data
+
+PS2: Oil Spill Detection
+Original Competition: https://www.kaggle.com/competitions/gnss-r-ddm-oil-spill-detection-thickness-inv
+
+Alternative Dataset: https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
+
+Deep-SAR Oil Spill: https://zenodo.org/records/15298010
+
+Sentinel-1 SAR Oil Spill: https://www.kaggle.com/datasets/harikrishnacs/sentinel-1-sar-oil-spill-detection-dataset
+
+PS3: Illegal Fishing Detection
+Original Competition: https://iuu.xview.us
+
+Dataset: https://iuu.xview.us/dataset
+
+Whitepaper: https://iuu.xview.us/xview3_dataset_whitepaper.pdf
+
+Evaluation Code: https://github.com/DIUx-xView/xview3-reference
+
+Kaggle Mirror: https://www.kaggle.com/competitions/xview3-challenge
+
+PS4: Ship Detection from Satellite Imagery
+Original Competition: https://www.kaggle.com/competitions/airbus-ship-detection
+
+Dataset: https://www.kaggle.com/competitions/airbus-ship-detection/data
+
+Ships in Satellite Imagery (ShipsNet): https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery
+
+PS5: Acoustic Species Classification
+Original Competition: https://www.kaggle.com/competitions/birdclef-2026
+
+Dataset: https://www.kaggle.com/competitions/birdclef-2026/data
+
+NOAA Marine Sounds: https://www.kaggle.com/datasets/asimmahmudov/whale-sounds-dataset
+
+NOAA Hydrophone Underwater Noise: https://www.kaggle.com/datasets/drishtigupta73/underwater-noise
+
+Hackathon Dataset Package
+Download Link: https://drive.google.com/file/d/1QhVRud_MTnWAVoShEKBY99su4jeTTPBb/view?usp=sharing
