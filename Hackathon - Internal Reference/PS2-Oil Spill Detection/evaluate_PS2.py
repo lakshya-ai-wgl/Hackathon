@@ -36,7 +36,7 @@ def validate_submission(submission, sample):
     
     return True, "Valid"
 
-def evaluate(submission_path, solution_path, sample_path):
+def evaluate(submission_path, solution_path, sample_path=None):
     """
     Evaluate PS 2 submissions
     
@@ -46,12 +46,16 @@ def evaluate(submission_path, solution_path, sample_path):
     # Load data
     submission = pd.read_csv(submission_path)
     solution = pd.read_csv(solution_path)
-    sample = pd.read_csv(sample_path)
+
     
     # Validate
-    valid, message = validate_submission(submission, sample)
-    if not valid:
-        return {'valid': False, 'message': message}
+    if sample_path:
+        sample = pd.read_csv(sample_path)
+        valid, message = validate_submission(submission, sample)
+        if not valid:
+            return {'valid': False, 'message': message}
+    elif len(submission) != len(solution):
+        return {'valid': False, 'message': 'Row count mismatch'}
     
     # Merge to ensure correct order
     submission = submission.merge(solution[['sample_id']], on='sample_id')
@@ -77,11 +81,12 @@ def evaluate(submission_path, solution_path, sample_path):
     }
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
+    if len(sys.argv) < 3:
         print("Usage: python evaluate_PS2.py <submission.csv> <solution.csv> <sample.csv>")
         sys.exit(1)
     
-    results = evaluate(sys.argv[1], sys.argv[2], sys.argv[3])
+    sample_path = sys.argv[3] if len(sys.argv) >= 4 else None
+    results = evaluate(sys.argv[1], sys.argv[2], sample_path)
     
     if not results['valid']:
         print(f"❌ INVALID: {results['message']}")

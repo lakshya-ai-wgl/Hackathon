@@ -21,7 +21,7 @@ Hackathon/
 │   ├── PS4_public/                       # Satellite Ship Detection (JPGs + CSVs)
 │   └── PS5_public/                       # Acoustic Species Classification (WAVs + CSVs)
 │
-├── Hackathon.zip                         # Pre-packaged ZIP of the 'Hackathon/' folder (~426 MB)
+├── Hackathon.zip                         # Pre-packaged clean ZIP of the 'Hackathon/' folder (~111 MB)
 │
 ├── Hackathon - Internal Reference/       # ORGANIZER EVALUATION & REFERENCE SUITE
 │   ├── PS1-Predictive Maintenance/       # Evaluation code, secret solutions, pipelines
@@ -30,7 +30,7 @@ Hackathon/
 │   ├── PS4-Ship Detection from Satellite/# Evaluation code, secret solutions, pipelines
 │   └── PS5-Acoustic Species Classification/# Evaluation code, secret solutions, pipelines
 │
-└── Hackathon - Internal Reference.zip    # Pre-packaged ZIP of the 'Hackathon - Internal Reference/' folder (~426 MB)
+└── Hackathon - Internal Reference.zip    # Pre-packaged ZIP of the 'Hackathon - Internal Reference/' folder (~111 MB)
 ```
 
 ---
@@ -49,7 +49,7 @@ Hackathon/
 
 ### 2. `Hackathon.zip` *(Participant Download Archive)*
 * **Purpose:** The compressed zip archive of the `Hackathon/` directory.
-* **Size:** **~426 MB** (compressed using standard ZIP DEFLATE).
+* **Size:** **~111 MB** (compressed using standard ZIP DEFLATE).
 * **Usage:** Ready for direct distribution to participants so they can download the entire hackathon package in under a minute.
 
 ### 3. `Hackathon - Internal Reference/` *(Organizer Suite - Keep Private)*
@@ -62,7 +62,7 @@ Hackathon/
 
 ### 4. `Hackathon - Internal Reference.zip` *(Organizer Archive Backup)*
 * **Purpose:** The compressed zip archive of the `Hackathon - Internal Reference/` directory.
-* **Size:** **~426 MB**.
+* **Size:** **~111 MB**.
 * **Usage:** Serves as a portable, self-contained backup of all scoring engines, solutions, and internal pipelines.
 
 ### 5. `DATASET_PREPARATION_GUIDE.md`
