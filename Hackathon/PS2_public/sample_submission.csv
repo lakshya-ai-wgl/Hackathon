@@ -1,4 +1,4 @@
-sample_id,oil_present_prob,oil_thickness_mm
+sample_id,oil_present,oil_thickness_mm
 501,0.5,1.0
 502,0.5,1.0
 503,0.5,1.0
